@@ -156,7 +156,9 @@ def artwork(mobile, dark):
     for j, points in enumerate(projected):
         position = j / (strands - 1)
         color = lerp_color(position)
-        output.append(f'<path class="trace" pathLength="1" d="{line_path(points)}" '
+        # Keep the entire colored ribbon visible even if a renderer freezes at
+        # animation time zero. Only the extra edge highlight reveals itself.
+        output.append(f'<path d="{line_path(points)}" '
                       f'fill="none" stroke="{color}" stroke-width="{1.65 if mobile else 1.55}" '
                       'stroke-linecap="round" stroke-linejoin="round"/>')
     # An extra light catches the edge, just as the colored ribbon closes.
@@ -176,7 +178,8 @@ def generate(mobile=False, dark=True):
     title = "Lucas Sousa. Construo o próximo."
     description = ("Software, automação e inteligência artificial. "
                    "Uma fita orbital nas cores violeta, magenta, rosa, laranja e amarelo "
-                   "se revela ao lado da apresentação e permanece estática após 4,8 segundos. "
+                   "permanece inteira desde o primeiro instante. Sua borda luminosa se revela "
+                   "durante uma rotação suave; o conjunto fica estático após 4,8 segundos. "
                    "A animação respeita a preferência por movimento reduzido.")
     body = [f'<rect width="{width}" height="{height}" fill="{background}"/>']
     bboxes = {}

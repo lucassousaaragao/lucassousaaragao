@@ -1,140 +1,163 @@
 ---
 name: Perfil GitHub — Lucas Sousa / Luwei
-description: Identidade aurora documentada a partir do README e de seus SVGs locais.
+description: Identidade de engenharia com código, stack visual e marcas originais.
 colors:
   aurora-violet: "#7B24FF"
   aurora-magenta: "#BF18FF"
   aurora-pink: "#F421A6"
   aurora-orange: "#FF733D"
   aurora-yellow: "#FFBE24"
-  hero-background-dark: "#0D0E16"
-  hero-background-light: "#F8F6FA"
-  hero-text-dark: "#F8F5FF"
-  hero-text-light: "#16101F"
-  hero-secondary-dark: "#BEB5D0"
-  hero-secondary-light: "#665B72"
-  card-background-dark: "#101019"
-  card-background-light: "#F8F6FC"
-  card-text-dark: "#F6F2FC"
-  card-text-light: "#171322"
-  card-secondary-dark: "#C2BACE"
-  card-secondary-light: "#544C60"
-  card-border-dark: "#30283D"
-  card-border-light: "#DED7E7"
-  ribbon-silhouette-dark: "#191524"
-  ribbon-silhouette-light: "#E2DCEB"
-  ribbon-edge-dark: "#FFE3A0"
-  ribbon-edge-light: "#C87718"
+  background-dark: "#080C16"
+  background-light: "#F4F6FC"
+  foreground-dark: "#F4F7FC"
+  foreground-light: "#121A2B"
+  secondary-dark: "#A6B5CA"
+  secondary-light: "#51617A"
+  line-dark: "#243047"
+  line-light: "#D4DCEA"
+  code-dark: "#C6D1E4"
+  code-light: "#243C60"
+  keyword-dark: "#DCAAFF"
+  keyword-light: "#7125B9"
+  string-dark: "#FFBA86"
+  string-light: "#99400C"
+  punctuation-dark: "#8FA4C3"
+  punctuation-light: "#566B89"
+  project-plate-light: "#FFFFFF"
+  dev-plate-dark: "#060611"
 typography:
-  hero-display-desktop: {fontFamily: "Space Grotesk", fontSize: "88px", fontWeight: 600, letterSpacing: "-0.025em"}
-  hero-display-mobile: {fontFamily: "Space Grotesk", fontSize: "76px", fontWeight: 600, letterSpacing: "-0.025em"}
-  hero-name-desktop: {fontFamily: "Space Grotesk", fontSize: "49px", fontWeight: 600, letterSpacing: "-0.025em"}
-  hero-name-mobile: {fontFamily: "Space Grotesk", fontSize: "48px", fontWeight: 600, letterSpacing: "-0.025em"}
-  hero-body-desktop: {fontFamily: "Space Grotesk", fontSize: "26px", fontWeight: 400, letterSpacing: "-0.025em"}
-  hero-body-mobile: {fontFamily: "Space Grotesk", fontSize: "25px", fontWeight: 400, letterSpacing: "-0.025em"}
-  card-title-desktop: {fontFamily: "Space Grotesk", fontSize: "47px", fontWeight: 700}
-  card-title-mobile: {fontFamily: "Space Grotesk", fontSize: "46px", fontWeight: 700}
-  card-body-desktop: {fontFamily: "Space Grotesk", fontSize: "27px", fontWeight: 500}
-  card-body-mobile: {fontFamily: "Space Grotesk", fontSize: "30px", fontWeight: 500}
-  card-action-desktop: {fontFamily: "Space Grotesk", fontSize: "21px", fontWeight: 600}
-  card-action-mobile: {fontFamily: "Space Grotesk", fontSize: "26px", fontWeight: 600}
-rounded: {product-card: "16px"}
+  hero-name-desktop: {"fontFamily": "Sora", "fontSize": "105px", "fontWeight": 650, "letterSpacing": "-0.032em"}
+  hero-name-mobile: {"fontFamily": "Sora", "fontSize": "79px", "fontWeight": 650, "letterSpacing": "-0.032em"}
+  hero-role: {"fontFamily": "Sora", "fontSize": "30px", "fontWeight": 550, "letterSpacing": "-0.012em"}
+  hero-founder: {"fontFamily": "Sora", "fontSize": "23px", "fontWeight": 400, "letterSpacing": "-0.012em"}
+  hero-code-desktop: {"fontFamily": "JetBrains Mono", "fontSize": "21px", "fontWeight": 400, "letterSpacing": "0em"}
+  hero-code-mobile: {"fontFamily": "JetBrains Mono", "fontSize": "23px", "fontWeight": 400, "letterSpacing": "0em"}
+  stack-heading: {"fontFamily": "Sora", "fontSize": "32px", "fontWeight": 600}
+  stack-label-desktop: {"fontFamily": "Sora", "fontSize": "21px", "fontWeight": 500}
+  stack-label-mobile: {"fontFamily": "Sora", "fontSize": "24px", "fontWeight": 500}
+  project-title-desktop: {"fontFamily": "Sora", "fontSize": "31px", "fontWeight": 600, "letterSpacing": "-0.012em"}
+  project-title-mobile: {"fontFamily": "Sora", "fontSize": "29px", "fontWeight": 600, "letterSpacing": "-0.012em"}
+  project-title-long: {"fontFamily": "Sora", "fontSize": "27px", "fontWeight": 600, "letterSpacing": "-0.012em"}
+  project-body-desktop: {"fontFamily": "Sora", "fontSize": "21px", "fontWeight": 400, "letterSpacing": "-0.012em", "lineHeight": 1.4}
+  project-body-mobile: {"fontFamily": "Sora", "fontSize": "23px", "fontWeight": 400, "letterSpacing": "-0.012em", "lineHeight": 1.4}
+rounded: {project-logo: "8px", stack-logo: "12px"}
 components:
-  hero-dark: {backgroundColor: "{colors.hero-background-dark}", textColor: "{colors.hero-text-dark}"}
-  hero-light: {backgroundColor: "{colors.hero-background-light}", textColor: "{colors.hero-text-light}"}
-  product-card-dark: {backgroundColor: "{colors.card-background-dark}", textColor: "{colors.card-text-dark}", rounded: "{rounded.product-card}"}
-  product-card-light: {backgroundColor: "{colors.card-background-light}", textColor: "{colors.card-text-light}", rounded: "{rounded.product-card}"}
+  hero-dark: {"backgroundColor": "{colors.background-dark}", "textColor": "{colors.foreground-dark}"}
+  hero-light: {"backgroundColor": "{colors.background-light}", "textColor": "{colors.foreground-light}"}
+  stack-dark: {"backgroundColor": "{colors.background-dark}", "textColor": "{colors.foreground-dark}"}
+  stack-light: {"backgroundColor": "{colors.background-light}", "textColor": "{colors.foreground-light}"}
+  project-logo-plate: {"backgroundColor": "{colors.project-plate-light}", "rounded": "{rounded.project-logo}"}
 ---
-
 # Design System: Perfil GitHub — Lucas Sousa / Luwei
 
 ## Overview
 
-**Creative North Star: "Aurora em movimento"**
+**Creative North Star: "Engenharia Luwei em aurora"**
 
-Rótulo descritivo da implementação existente: composição editorial clara, tipografia expressiva e geometrias nas cores aurora. Este documento registra a extensão da identidade preservada em `assets/aurora-personal.svg`; não propõe outra identidade.
+A identidade põe Lucas Sousa e sua atuação em engenharia no centro. O código real de `profile.ts`, os alinhamentos de um editor e as marcas originais conduzem a composição. A paleta aurora permanece como assinatura gráfica; os símbolos de programação dão forma ao traço que conecta os elementos.
 
-Escopo: imagens do README e organização do conteúdo. A página, a fonte do Markdown e os estados de links são controlados pelo GitHub. Fontes de extração: `PRODUCT.md`, `README.md`, `scripts/generate_hero.py`, `scripts/generate_cards.py` e `assets/SOURCES.md`. O registro não certifica a renderização no GitHub.
+O redesign responde ao pedido de mais programação, futurismo e presença visual da stack. Substitui a direção anterior de fita abstrata por uma composição baseada em código. Este documento descreve a implementação atual dos SVGs e do README; não certifica a renderização final no GitHub.
 
 **Key Characteristics:**
 
-- Nome pessoal em destaque, chamada em duas linhas e texto de apoio legível.
-- Aurora compartilhada entre hero e produtos; fundos claros e escuros próprios.
-- SVGs locais autossuficientes, movimento finito e conteúdo equivalente em texto.
+- Nome e profissão com hierarquia forte; código real com destaque sintático.
+- 55 tecnologias em seis grupos, com logos-fonte e nomes completos.
+- Oito projetos com marcas fornecidas pelo proprietário, sem redesenho das logos.
+- Composições próprias para desktop e mobile, em temas claro e escuro.
+- Um movimento finito no hero; conteúdo e traço-base visíveis desde o primeiro quadro.
 
 ## Colors
 
-**Primary:** a paleta aurora oficial já presente no repositório reúne violeta, magenta, rosa, laranja e amarelo (`aurora-*`). Ela percorre a fita do hero, o pequeno traço sob o nome e as geometrias dos produtos, sem substituir as marcas.
+### Primary
 
-**Neutral:** os pares `hero-background-*` e `card-background-*` definem os fundos das imagens; `*-text-*` atende títulos e ações, e `*-secondary-*` atende descrições. Os sufixos `dark` e `light` identificam a variante da imagem, não a luminosidade da cor isolada. `card-border-*` delimita os cards; `ribbon-silhouette-*` e `ribbon-edge-*` dão estrutura e acabamento à fita.
+A paleta `aurora-*` reúne violeta, magenta, rosa, laranja e amarelo. Ela percorre a estrutura do hero e os pequenos segmentos que iniciam as divisórias da stack. Não é aplicada ao texto corrente nem usada para recolorir marcas de terceiros.
+
+### Neutral
+
+`background-*`, `foreground-*`, `secondary-*` e `line-*` formam os pares de superfície, texto, apoio e divisórias. Os sufixos indicam a variante da imagem. No código, `code-*`, `keyword-*`, `string-*` e `punctuation-*` distinguem tokens sem simular uma execução.
+
+As logos conservam suas cores. `project-plate-light` oferece um campo branco às marcas que precisam dele; a versão escura do painel também usa suportes claros para ícones monocromáticos. A logo LuweiDev conserva seu fundo próprio.
 
 ## Typography
 
-**Display Font:** Space Grotesk, fonte variável local em `assets/fonts/SpaceGrotesk.ttf`, licenciada em `assets/fonts/OFL.txt`.
-**Body Font:** a tipografia nativa do GitHub no Markdown; Space Grotesk somente dentro das imagens.
+**Display Font:** Sora, local, convertida em paths dentro dos SVGs.
 
-Os geradores convertem os glifos dos SVGs em paths. Não há carregamento remoto de fonte nem dependência de fallback para essas imagens. Os tamanhos do frontmatter são unidades do SVG, escaladas com a imagem; não equivalem a tamanhos CSS fixos na página.
+**Code Font:** JetBrains Mono, usada no trecho de TypeScript, no nome do arquivo e na numeração das linhas.
+
+**Body Font:** a fonte nativa do GitHub no Markdown. O projeto não altera a tipografia da página hospedada.
+
+Os tamanhos do frontmatter são unidades do SVG. Eles escalam proporcionalmente com a largura da imagem e não constituem tamanhos CSS fixos na página. Cada glifo é definido uma vez por variante tipográfica e reaproveitado com `xlink:href`.
 
 ### Hierarchy
 
-`hero-name-*` identifica Lucas; `hero-display-*` apresenta “Construo o próximo.”; `hero-body-*` explica a atuação. Nos cards, `card-title-*`, `card-body-*` e `card-action-*` distinguem produto, proposta e destino. O hero posiciona linhas por baseline; os cards usam o avanço natural dos glifos. Nenhuma escala de `line-height` do Markdown é definida aqui.
+- `hero-name-*`: nome em duas linhas; maior nível da apresentação.
+- `hero-role` e `hero-founder`: profissão e vínculo com a Luwei.
+- `hero-code-*`: conteúdo extraído diretamente de `profile.ts`, com baselines separados por 35 unidades no desktop e 32 no mobile.
+- `stack-heading` e `stack-label-*`: áreas técnicas e nomes das tecnologias. Nomes longos podem ocupar duas linhas.
+- `project-title-*` e `project-body-*`: nomes e legendas; o título longo de Perícia Paraíba recebe duas linhas próprias.
 
 ## Layout
 
-| Imagem | Desktop | Mobile |
+| Painel | Desktop | Mobile |
 | :--- | :--- | :--- |
-| Hero | 1200 × 560 | 680 × 760 |
-| Cards Flow / Dev | 1200 × 240 | 680 × 360 |
+| Hero | 1200 × 620 | 600 × 800 |
+| Stack | 1200 × 1528; oito colunas | 600 × 3342; três colunas |
+| Projetos | 1200 × 980; duas colunas | 600 × 1640; uma coluna |
 
-Cada `<picture>` seleciona mobile em `(max-width: 767px)`, combinado primeiro com `(prefers-color-scheme: dark)`; segue mobile claro, desktop escuro e fallback claro em `<img width="100%">`. As variantes são arquivos próprios, não recortes de uma imagem única.
+O README usa `<picture>` com o breakpoint `(max-width: 767px)`. A ordem é mobile escuro, mobile claro, desktop escuro e fallback claro. Cada imagem tem largura fluida; os arquivos mobile recompõem o conteúdo.
 
-O hero põe texto à esquerda e fita à direita no desktop; no mobile, a fita ocupa a região inferior. Os cards reorganizam descrições em duas linhas no mobile. As coordenadas são composições dos geradores; não há grid CSS nem escala geral de espaçamento. O corpo segue uma coluna de Markdown com títulos, parágrafos, navegação, produtos e tabela em `<details open>`.
+No desktop, nome e apresentação ocupam o lado esquerdo do hero; código e marca ocupam o direito. No mobile, identidade e código ficam em sequência vertical. A stack usa bandas por categoria, células abertas e espaçamento entre nomes. Seus itens têm passo vertical de 118 unidades no desktop e 128 no mobile; as margens horizontais são 44 e 28, respectivamente.
+
+O diretório de projetos usa divisórias e uma área contida para cada logo. As imagens preservam proporção. Os links públicos ficam no Markdown após o painel; não há botões desenhados dentro das imagens. Stack e projetos têm equivalentes textuais em `<details>` fechados inicialmente.
 
 ## Elevation & Depth
 
-Os SVGs não usam sombras CSS nem filtros de desfoque. A profundidade vem da fita tridimensional projetada, das sobreposições dos traços e de uma silhueta estrutural com espessura de 28 unidades e opacidade de 0,62. Cards usam fundo tonal e contorno simples.
+Os painéis são planos. A hierarquia resulta de contraste, escala, alinhamento e divisórias, sem sombras ou filtros de desfoque. O brilho já existente em algumas logos pertence ao arquivo original da marca e não define um efeito global.
 
 ## Shapes
 
-O hero tem fundo retangular sem arredondamento. Cards usam o token `product-card`, borda de uma unidade e seta diagonal de duas unidades com terminações arredondadas. A fita reúne 44 traços e uma linha de acabamento; Flow usa 15 curvas e Dev usa 32 elipses. Essas geometrias não são logotipos.
+A moldura aberta do hero tem um canto chanfrado. Chaves, recuos e linhas de código orientam a geometria aurora. A linha animada acompanha um traço-base sempre visível.
+
+Os suportes de logos têm cantos de 8 unidades no diretório e 12 na stack. Eles existem onde o contraste da marca pede uma superfície própria. As células técnicas e as entradas do diretório permanecem abertas, separadas por linhas finas.
 
 ## Components
 
-### Hero
+### Hero com código
 
-`assets/hero-{dark,light}.svg` e `assets/hero-mobile-{dark,light}.svg` contêm nome, chamada, descrição e fita aurora.
-As 44 curvas coloridas permanecem completas desde o primeiro instante e não recebem animação de traçado.
-Somente a linha luminosa extra da borda recebe `reveal`; uma captura do quadro inicial preserva a fita inteira.
-`turn` gira o grupo de −9° a 0°; o conjunto permanece estático ao final.
-Ambas as animações duram **4,8 s, uma iteração**, com `cubic-bezier(.16,1,.3,1)` e preenchimento `both`.
-`prefers-reduced-motion: reduce` desliga ambas. O desenho completo continua disponível sem animação.
+`assets/hero-{dark,light}.svg` e `assets/hero-mobile-{dark,light}.svg` são gerados por `scripts/generate_profile.py`. Nome, profissão e foco aparecem no primeiro quadro. O código é uma declaração de perfil que existe em `profile.ts`; não representa logs, disponibilidade ou resultados de execução.
 
-### Cards / Containers
+Somente o destaque `.trace` se move: 4,8 segundos, uma execução, curva `cubic-bezier(.16,1,.3,1)`, término estático. `prefers-reduced-motion: reduce` desliga a animação e mantém a composição. A stack e o diretório são estáticos.
 
-`assets/flow-*.svg` e `assets/dev-*.svg` oferecem variantes de tamanho e tema. São imagens estáticas envolvidas por links para os produtos; as ações desenhadas fazem parte da imagem. Título, proposta, geometria e seta seguem a hierarquia extraída. Não há estados próprios de hover, foco ou pressão implementados no SVG.
+### Stack de engenharia
 
-### Navigation
+`assets/stack-{dark,light}.svg` e `assets/stack-mobile-{dark,light}.svg` são gerados por `scripts/generate_stack.py`. O inventário público em `scripts/stack.json` contém 55 nomes e 53 logos-fonte distintos. Codex compartilha a marca OpenAI; Claude Code compartilha a marca Anthropic. Tiptap e React Flow usam as marcas de seus sites oficiais.
 
-Links centrais usam âncoras do README e o site Luwei. As seções, a tabela de tecnologias e o `<details open>` permanecem nativos do GitHub, incluindo interação e aparência. O rodapé preserva `assets/luwei-official.png`, cópia original da logo pública, exibida a 180 px, e a assinatura institucional.
+Os grupos são Linguagens; Interfaces e desktop; Backend e dados; Cloud e entrega; IA e integrações; Qualidade. IDs e classes dos SVGs incorporados recebem prefixos para evitar colisões. Nenhuma barra ou selo indica suposto domínio de uma tecnologia.
+
+### Diretório de projetos
+
+`assets/projects-{dark,light}.svg` e `assets/projects-mobile-{dark,light}.svg` são gerados por `scripts/generate_profile.py`. A composição reúne Luwei Flow, LuweiDev, Zênit, Horora, CuidarPro, eAudit, Projeto Perícia Paraíba e Union.
+
+As cópias para a web preservam geometria e cores das marcas; apenas margens vazias e escala proporcional são ajustadas. O inventário de origem e transformações está em `assets/projects/SOURCES.json`. As descrições seguem o conteúdo público disponível; eAudit e Union são apresentados somente pelo nome.
+
+### Navegação e leitura
+
+Links, títulos, listas, tabelas e `<details>` usam os controles nativos do GitHub. O repositório não define hover, foco, scrollbar, campos, estados de carregamento ou CSS da página. `alt`, `<title>`, `<desc>` e conteúdo em Markdown dão acesso à informação além das imagens.
 
 ## Do's and Don'ts
 
-### Do:
+### Do
 
-- **Do** preservar a aurora, a logo original e as variantes locais de tamanho e tema.
-- **Do** manter `alt`, `<title>`, `<desc>` e texto equivalente no README ao editar imagens.
-- **Do** conservar a animação finita e a preferência por movimento reduzido ao regenerar o hero.
+- **Do** manter nome, profissão, marcas originais, princípios e assinatura da Luwei.
+- **Do** editar o conteúdo de código em `profile.ts` e regenerar o hero.
+- **Do** manter o inventário visual alinhado à lista textual do README.
+- **Do** preservar nomes completos, proporções, contraste e licenças das marcas.
+- **Do** manter versões mobile próprias, movimento finito e alternativa de movimento reduzido.
 
-### Don't:
+### Don't
 
-- **Don't** atribuir ao projeto fontes, controles, sombras ou estados que pertencem à página do GitHub.
-- **Don't** substituir a logo por geometrias dos cards nem introduzir fontes ou imagens remotas nos SVGs.
-- **Don't** adicionar JavaScript, iframes ou CSS destinado à página do README.
-
-**Regeneração:** executar na raiz do repositório; `scripts/requirements.txt` fixa `fonttools==4.61.1`. Os dois geradores reescrevem as quatro variantes de hero e as oito variantes de cards. Atualizar este documento e o sidecar após mudanças nesses arquivos.
-
-```bash
-python -m pip install -r scripts/requirements.txt
-python scripts/generate_hero.py
-python scripts/generate_cards.py
-```
+- **Don't** transformar a fita abstrata anterior na direção ativa deste redesign.
+- **Don't** simular execução, terminal, disponibilidade, métricas, níveis de domínio ou resultados.
+- **Don't** inventar links, descrições de produtos ou símbolos para tecnologias sem logo-fonte.
+- **Don't** incorporar JavaScript, iframes ou CSS para controlar a página do GitHub.
+- **Don't** tornar conteúdo essencial dependente da animação ou de fontes externas.

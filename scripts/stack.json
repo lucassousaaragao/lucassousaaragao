@@ -1,0 +1,252 @@
+[
+  {
+    "category": "Linguagens",
+    "technologies": [
+      {
+        "name": "TypeScript",
+        "logo": "assets/stack/typescript.svg"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "assets/stack/javascript.svg"
+      },
+      {
+        "name": "Python",
+        "logo": "assets/stack/python.svg"
+      },
+      {
+        "name": "PHP",
+        "logo": "assets/stack/php.svg"
+      }
+    ]
+  },
+  {
+    "category": "Interfaces e desktop",
+    "technologies": [
+      {
+        "name": "React",
+        "logo": "assets/stack/react.svg"
+      },
+      {
+        "name": "SolidJS",
+        "logo": "assets/stack/solidjs.svg"
+      },
+      {
+        "name": "Electron",
+        "logo": "assets/stack/electron.svg"
+      },
+      {
+        "name": "Vite",
+        "logo": "assets/stack/vite.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "logo": "assets/stack/tailwindcss.svg"
+      },
+      {
+        "name": "shadcn/ui",
+        "logo": "assets/stack/shadcnui.svg"
+      },
+      {
+        "name": "Radix UI",
+        "logo": "assets/stack/radixui.svg"
+      },
+      {
+        "name": "TanStack",
+        "logo": "assets/stack/tanstack.svg"
+      },
+      {
+        "name": "Three.js",
+        "logo": "assets/stack/threejs.svg"
+      },
+      {
+        "name": "Motion",
+        "logo": "assets/stack/framermotion.svg"
+      },
+      {
+        "name": "Livewire",
+        "logo": "assets/stack/livewire.svg"
+      },
+      {
+        "name": "Alpine.js",
+        "logo": "assets/stack/alpinejs.svg"
+      },
+      {
+        "name": "Tiptap",
+        "logo": "assets/stack/tiptap.svg"
+      },
+      {
+        "name": "React Flow",
+        "logo": "assets/stack/reactflow.svg"
+      },
+      {
+        "name": "Sass",
+        "logo": "assets/stack/sass.svg"
+      },
+      {
+        "name": "React Hook Form",
+        "logo": "assets/stack/reacthookform.svg"
+      }
+    ]
+  },
+  {
+    "category": "Backend e dados",
+    "technologies": [
+      {
+        "name": "Node.js",
+        "logo": "assets/stack/nodejs.svg"
+      },
+      {
+        "name": "Bun",
+        "logo": "assets/stack/bun.svg"
+      },
+      {
+        "name": "Deno",
+        "logo": "assets/stack/deno.svg"
+      },
+      {
+        "name": "Laravel",
+        "logo": "assets/stack/laravel.svg"
+      },
+      {
+        "name": "Supabase",
+        "logo": "assets/stack/supabase.svg"
+      },
+      {
+        "name": "PostgreSQL",
+        "logo": "assets/stack/postgresql.svg"
+      },
+      {
+        "name": "MySQL",
+        "logo": "assets/stack/mysql.svg"
+      },
+      {
+        "name": "MongoDB",
+        "logo": "assets/stack/mongodb.svg"
+      },
+      {
+        "name": "Redis",
+        "logo": "assets/stack/redis.svg"
+      },
+      {
+        "name": "Drizzle ORM",
+        "logo": "assets/stack/drizzle.svg"
+      },
+      {
+        "name": "Effect",
+        "logo": "assets/stack/effect.svg"
+      },
+      {
+        "name": "Pydantic",
+        "logo": "assets/stack/pydantic.svg"
+      },
+      {
+        "name": "Zod",
+        "logo": "assets/stack/zod.svg"
+      }
+    ]
+  },
+  {
+    "category": "Cloud e entrega",
+    "technologies": [
+      {
+        "name": "Docker",
+        "logo": "assets/stack/docker.svg"
+      },
+      {
+        "name": "Cloudflare",
+        "logo": "assets/stack/cloudflare.svg"
+      },
+      {
+        "name": "Google Cloud",
+        "logo": "assets/stack/googlecloud.svg"
+      },
+      {
+        "name": "GitHub Actions",
+        "logo": "assets/stack/githubactions.svg"
+      },
+      {
+        "name": "Git",
+        "logo": "assets/stack/git.svg"
+      },
+      {
+        "name": "GitHub",
+        "logo": "assets/stack/github.svg"
+      },
+      {
+        "name": "npm",
+        "logo": "assets/stack/npm.svg"
+      },
+      {
+        "name": "pnpm",
+        "logo": "assets/stack/pnpm.svg"
+      }
+    ]
+  },
+  {
+    "category": "IA e integrações",
+    "technologies": [
+      {
+        "name": "OpenAI",
+        "logo": "assets/stack/openai.svg"
+      },
+      {
+        "name": "Claude",
+        "logo": "assets/stack/anthropic.svg"
+      },
+      {
+        "name": "Gemini",
+        "logo": "assets/stack/gemini.svg"
+      },
+      {
+        "name": "DeepSeek",
+        "logo": "assets/stack/deepseek.svg"
+      },
+      {
+        "name": "OpenCode",
+        "logo": "assets/stack/opencode.svg"
+      },
+      {
+        "name": "MCP",
+        "logo": "assets/stack/modelcontextprotocol.svg"
+      },
+      {
+        "name": "Codex",
+        "logo": "assets/stack/openai.svg"
+      },
+      {
+        "name": "Claude Code",
+        "logo": "assets/stack/anthropic.svg"
+      },
+      {
+        "name": "ElevenLabs",
+        "logo": "assets/stack/elevenlabs.svg"
+      },
+      {
+        "name": "LiveKit",
+        "logo": "assets/stack/livekit.svg"
+      }
+    ]
+  },
+  {
+    "category": "Qualidade",
+    "technologies": [
+      {
+        "name": "Playwright",
+        "logo": "assets/stack/playwright.svg"
+      },
+      {
+        "name": "Vitest",
+        "logo": "assets/stack/vitest.svg"
+      },
+      {
+        "name": "PHPUnit",
+        "logo": "assets/stack/phpunit.svg"
+      },
+      {
+        "name": "ESLint",
+        "logo": "assets/stack/eslint.svg"
+      }
+    ]
+  }
+]

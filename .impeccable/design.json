@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T14:28:41.460475+00:00",
+  "title": "Design System: Perfil GitHub — Lucas Sousa / Luwei",
+  "extensions": {
+    "colorMeta": {
+      "aurora-violet": {
+        "role": "primary",
+        "displayName": "aurora violet"
+      },
+      "aurora-magenta": {
+        "role": "primary",
+        "displayName": "aurora magenta"
+      },
+      "aurora-pink": {
+        "role": "primary",
+        "displayName": "aurora pink"
+      },
+      "aurora-orange": {
+        "role": "primary",
+        "displayName": "aurora orange"
+      },
+      "aurora-yellow": {
+        "role": "primary",
+        "displayName": "aurora yellow"
+      },
+      "background-dark": {
+        "role": "neutral",
+        "displayName": "background dark"
+      },
+      "background-light": {
+        "role": "neutral",
+        "displayName": "background light"
+      },
+      "foreground-dark": {
+        "role": "neutral",
+        "displayName": "foreground dark"
+      },
+      "foreground-light": {
+        "role": "neutral",
+        "displayName": "foreground light"
+      },
+      "secondary-dark": {
+        "role": "neutral",
+        "displayName": "secondary dark"
+      },
+      "secondary-light": {
+        "role": "neutral",
+        "displayName": "secondary light"
+      },
+      "line-dark": {
+        "role": "neutral",
+        "displayName": "line dark"
+      },
+      "line-light": {
+        "role": "neutral",
+        "displayName": "line light"
+      },
+      "code-dark": {
+        "role": "neutral",
+        "displayName": "code dark"
+      },
+      "code-light": {
+        "role": "neutral",
+        "displayName": "code light"
+      },
+      "keyword-dark": {
+        "role": "neutral",
+        "displayName": "keyword dark"
+      },
+      "keyword-light": {
+        "role": "neutral",
+        "displayName": "keyword light"
+      },
+      "string-dark": {
+        "role": "neutral",
+        "displayName": "string dark"
+      },
+      "string-light": {
+        "role": "neutral",
+        "displayName": "string light"
+      },
+      "punctuation-dark": {
+        "role": "neutral",
+        "displayName": "punctuation dark"
+      },
+      "punctuation-light": {
+        "role": "neutral",
+        "displayName": "punctuation light"
+      },
+      "project-plate-light": {
+        "role": "neutral",
+        "displayName": "project plate light"
+      },
+      "dev-plate-dark": {
+        "role": "neutral",
+        "displayName": "dev plate dark"
+      }
+    },
+    "typographyMeta": {
+      "hero-name-desktop": {
+        "displayName": "hero name desktop",
+        "purpose": "Hierarquia do painel SVG correspondente; tamanho em unidades de viewBox."
+      },
+      "hero-name-mobile": {
+        "displayName": "hero name mobile",
+        "purpose": "Hierarquia do painel SVG correspondente; tamanho em unidades de viewBox."
+      },
+      "hero-role": {
+        "displayName": "hero role",
+        "purpose": "Hierarquia do painel SVG correspondente; tamanho em unidades de viewBox."
+      },
+      "hero-founder": {
+        "displayName": "hero founder",
+        "purpose": "Hierarquia do painel SVG correspondente; tamanho em unidades de viewBox."
+      },
+      "hero-code-desktop": {
+        "displayName": "hero code desktop",
+        "purpose": "Código real e numeração de linhas."
+      },
+      "hero-code-mobile": {
+        "displayName": "hero code mobile",
+        "purpose": "Código real e numeração de linhas."
+      },
+      "stack-heading": {
+        "displayName": "stack heading",
+        "purpose": "Hierarquia do painel SVG correspondente; tamanho em unidades de viewBox."
+      },
+      "stack-label-desktop": {
+        "displayName": "stack label desktop",
+        "purpose": "Hierarquia do painel SVG correspondente; tamanho em unidades de viewBox."
+      },
+      "stack-label-mobile": {
+        "displayName": "stack label mobile",
+        "purpose": "Hierarquia do painel SVG correspondente; tamanho em unidades de viewBox."
+      },
+      "project-title-desktop": {
+        "displayName": "project title desktop",
+        "purpose": "Hierarquia do painel SVG correspondente; tamanho em unidades de viewBox."
+      },
+      "project-title-mobile": {
+        "displayName": "project title mobile",
+        "purpose": "Hierarquia do painel SVG correspondente; tamanho em unidades de viewBox."
+      },
+      "project-title-long": {
+        "displayName": "project title long",
+        "purpose": "Hierarquia do painel SVG correspondente; tamanho em unidades de viewBox."
+      },
+      "project-body-desktop": {
+        "displayName": "project body desktop",
+        "purpose": "Hierarquia do painel SVG correspondente; tamanho em unidades de viewBox."
+      },
+      "project-body-mobile": {
+        "displayName": "project body mobile",
+        "purpose": "Hierarquia do painel SVG correspondente; tamanho em unidades de viewBox."
+      }
+    },
+    "motion": [
+      {
+        "name": "hero-duration",
+        "value": "4.8s",
+        "purpose": "Duração do destaque que percorre a linha do hero."
+      },
+      {
+        "name": "hero-easing",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Desaceleração do destaque."
+      },
+      {
+        "name": "hero-iterations",
+        "value": "1",
+        "purpose": "Uma execução; composição estática depois."
+      },
+      {
+        "name": "hero-fill-mode",
+        "value": "both",
+        "purpose": "Destaque transparente no início e no fim; linha-base sempre presente."
+      },
+      {
+        "name": "hero-reduced-motion",
+        "value": "@media(prefers-reduced-motion:reduce){.trace{animation:none;opacity:0}}",
+        "purpose": "Desliga o movimento sem ocultar o conteúdo ou a linha-base."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "picture-mobile-max",
+        "value": "767px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Traço aurora do hero",
+      "kind": "custom",
+      "refersTo": "hero-dark",
+      "description": "Fragmento literal da linha animada, sem copiar o painel completo. Arte completa e variantes: assets/hero-dark.svg, assets/hero-light.svg, assets/hero-mobile-dark.svg e assets/hero-mobile-light.svg. Stack e diretório permanecem em assets/stack-*.svg e assets/projects-*.svg. Este fragmento não certifica renderização no GitHub.",
+      "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"500 120 700 490\" width=\"100%\" role=\"img\" aria-label=\"Trecho real da linha aurora do hero\"><defs><linearGradient id=\"ds-aurora\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\".4\"><stop offset=\"0\" stop-color=\"#7B24FF\"/><stop offset=\".25\" stop-color=\"#BF18FF\"/><stop offset=\".5\" stop-color=\"#F421A6\"/><stop offset=\".75\" stop-color=\"#FF733D\"/><stop offset=\"1\" stop-color=\"#FFBE24\"/></linearGradient></defs><path d=\"M515 567 H588 L618 537 V197 L645 170 H946 L974 142\" fill=\"none\" stroke=\"url(#ds-aurora)\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><path class=\"ds-trace\" pathLength=\"1\" d=\"M515 567 H588 L618 537 V197 L645 170 H946 L974 142\" fill=\"none\" stroke=\"#F4F7FC\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",
+      "css": ".ds-trace{stroke-dasharray:.045 .955;stroke-dashoffset:0;opacity:0;animation:ds-trace 4.8s cubic-bezier(.16,1,.3,1) 1 both}@keyframes ds-trace{0%{stroke-dashoffset:1;opacity:0}8%{opacity:.9}85%{opacity:.9}100%{stroke-dashoffset:0;opacity:0}}@media(prefers-reduced-motion:reduce){.ds-trace{animation:none;opacity:0}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Engenharia Luwei em aurora",
+    "overview": "A identidade põe Lucas Sousa e sua atuação em engenharia no centro. O código real de `profile.ts`, os alinhamentos de um editor e as marcas originais conduzem a composição. A paleta aurora permanece como assinatura gráfica; os símbolos de programação dão forma ao traço que conecta os elementos.\n\nO redesign responde ao pedido de mais programação, futurismo e presença visual da stack. Substitui a direção anterior de fita abstrata por uma composição baseada em código. Este documento descreve a implementação atual dos SVGs e do README; não certifica a renderização final no GitHub.",
+    "keyCharacteristics": [
+      "Nome e profissão com hierarquia forte; código real com destaque sintático.",
+      "55 tecnologias em seis grupos, com logos-fonte e nomes completos.",
+      "Oito projetos com marcas fornecidas pelo proprietário, sem redesenho das logos.",
+      "Composições próprias para desktop e mobile, em temas claro e escuro.",
+      "Um movimento finito no hero; conteúdo e traço-base visíveis desde o primeiro quadro."
+    ],
+    "rules": [],
+    "dos": [
+      "Do preservar nome, profissão, logos originais, princípios e assinatura da Luwei.",
+      "Do manter profile.ts, inventário e equivalentes textuais alinhados aos painéis.",
+      "Do manter variantes mobile próprias, cores das marcas e movimento reduzido."
+    ],
+    "donts": [
+      "Don't restaurar a fita abstrata como direção ativa do redesign.",
+      "Don't simular terminal, execução, métricas ou níveis de domínio.",
+      "Don't inventar logos, descrições ou links.",
+      "Don't adicionar scripts, recursos remotos ou CSS destinado à página GitHub."
+    ]
+  }
+}

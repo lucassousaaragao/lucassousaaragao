@@ -1,0 +1,204 @@
+{
+  "origin": "Original logos supplied by the owner for this README",
+  "marks": "All rights remain with their respective owners.",
+  "assets": [
+    {
+      "name": "luwei",
+      "source": "projects/luwei.png",
+      "web_copy": "projects/web/luwei.png",
+      "source_sha256": "06b962b3fc9c54cd112655dfec9c2a92c91370e02cbb78e924d60b8b26294eb2",
+      "source_size": [
+        800,
+        600
+      ],
+      "crop": [
+        191,
+        75,
+        622,
+        520
+      ],
+      "output_size": [
+        262,
+        270
+      ],
+      "sha256": "8ac49e691bfda1aec810c87f9bd6562db9cb63f437e3efa8a5a2ebafa6c20d5a",
+      "operation": "Only empty margin trim and proportional downscale; original retained."
+    },
+    {
+      "name": "flow",
+      "source": "projects/flow.png",
+      "web_copy": "projects/web/flow.png",
+      "source_sha256": "f5c9ba0bc39d2feae0866c74f2ba2953ec71aa2f87cf6305e177a93464a9b1b1",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "crop": [
+        615,
+        86,
+        1305,
+        960
+      ],
+      "output_size": [
+        213,
+        270
+      ],
+      "sha256": "d23c46acccb20e180fdea55cc97ada06da1e722477b547fb3ce2c2de7c7219bc",
+      "operation": "Only empty margin trim and proportional downscale; original retained."
+    },
+    {
+      "name": "dev",
+      "source": "projects/dev.png",
+      "web_copy": "projects/web/dev.png",
+      "source_sha256": "1d0cd0e988045e27f009e2da756fa15bf5b9e66d3086f8462c41482d3303ccd6",
+      "source_size": [
+        800,
+        266
+      ],
+      "crop": [
+        0,
+        0,
+        800,
+        266
+      ],
+      "output_size": [
+        420,
+        140
+      ],
+      "sha256": "cba86484fb05dddb2898b5b59da748256705454b7794c28bc7c3658099fdf462",
+      "operation": "Only empty margin trim and proportional downscale; original retained."
+    },
+    {
+      "name": "zenit",
+      "source": "projects/zenit.png",
+      "web_copy": "projects/web/zenit.png",
+      "source_sha256": "9baa53733578823c6fa59982beb0b655e383e3ddf0dae73ddfd4173c0c79dc8d",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "crop": [
+        644,
+        360,
+        1275,
+        720
+      ],
+      "output_size": [
+        420,
+        240
+      ],
+      "sha256": "0a1f395f13eb2de5e0f0d51561b614cb545af84b928758619fc4be7e580f2490",
+      "operation": "Only empty margin trim and proportional downscale; original retained."
+    },
+    {
+      "name": "horora",
+      "source": "projects/horora.png",
+      "web_copy": "projects/web/horora.png",
+      "source_sha256": "66a5aae7c740b8212f52e4020745206154dc416d991defa2b2684617cb3213e7",
+      "source_size": [
+        487,
+        173
+      ],
+      "crop": [
+        22,
+        22,
+        465,
+        151
+      ],
+      "output_size": [
+        420,
+        122
+      ],
+      "sha256": "ed84e55c3becabdf0033d9860c8251333d99755040bc8868a6ef6c01a21fb36c",
+      "operation": "Only empty margin trim and proportional downscale; original retained."
+    },
+    {
+      "name": "union",
+      "source": "projects/union.png",
+      "web_copy": "projects/web/union.png",
+      "source_sha256": "53a320e2461d67868d15fb53baf0a507805f47482a4cb603f52dbf1b9cb15f45",
+      "source_size": [
+        1055,
+        285
+      ],
+      "crop": [
+        0,
+        0,
+        1055,
+        285
+      ],
+      "output_size": [
+        420,
+        113
+      ],
+      "sha256": "5be353c4430220cf5b286d25ab13eeffa7f820acd145336d937570b8a5b55c39",
+      "operation": "Only empty margin trim and proportional downscale; original retained."
+    },
+    {
+      "name": "cuidarpro",
+      "source": "projects/cuidarpro.png",
+      "web_copy": "projects/web/cuidarpro.png",
+      "source_sha256": "f51302ad8686ae31206e1dc1580aa9c8684cb79e39f897b9d8808afcf5239acd",
+      "source_size": [
+        800,
+        533
+      ],
+      "crop": [
+        97,
+        181,
+        682,
+        332
+      ],
+      "output_size": [
+        420,
+        108
+      ],
+      "sha256": "2e2675830413261d197f9a6d9f739ca78b0e49947a0916e49d7ed724fcbc446c",
+      "operation": "Only empty margin trim and proportional downscale; original retained."
+    },
+    {
+      "name": "eaudit",
+      "source": "projects/eaudit.png",
+      "web_copy": "projects/web/eaudit.png",
+      "source_sha256": "0121b4dfc201f64a758447285946570c49166525cb257357c15857ebaab5801c",
+      "source_size": [
+        800,
+        800
+      ],
+      "crop": [
+        72,
+        264,
+        728,
+        536
+      ],
+      "output_size": [
+        420,
+        174
+      ],
+      "sha256": "01f63f2405146f27ab2e006f6088443b40ab9ee20a5a7a0f2fbb2bacfcc72f74",
+      "operation": "Only empty margin trim and proportional downscale; original retained."
+    },
+    {
+      "name": "pericia",
+      "source": "projects/pericia.png",
+      "web_copy": "projects/web/pericia.png",
+      "source_sha256": "8756f1a039cc73d42723fe0f121d2fab8694a2d86bd57740cff0bd8e34f72765",
+      "source_size": [
+        800,
+        800
+      ],
+      "crop": [
+        0,
+        0,
+        800,
+        800
+      ],
+      "output_size": [
+        270,
+        270
+      ],
+      "sha256": "9d3a88bb83d72fcbcce6d307818a361dc74d55dc75533e15ca2864c18b3aab50",
+      "operation": "Only empty margin trim and proportional downscale; original retained."
+    }
+  ]
+}

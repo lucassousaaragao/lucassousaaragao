@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.impeccable/review/
+.b64-transfer/
+assets/**/*.b64
+assets/**/*.tmp
